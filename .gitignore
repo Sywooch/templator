@@ -11,9 +11,12 @@ Thumbs.db
 composer.phar
 
 sites/*
+!sites/.gitignore
 files/*
+!files/.gitignore
 assets/*
 !assets/.gitignore
+
 protected/runtime/*
 !protected/runtime/.gitignore
 protected/config/db.php
