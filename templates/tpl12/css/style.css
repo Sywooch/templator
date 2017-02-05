@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+strong { font-weight: bold; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after { content: ''; content: none; }
+
+q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+button, input { outline: none; border: none; }
+
+@font-face { font-family: "RobotoCondensedRegular"; src: url("../fonts/RobotoCondensedRegular.eot"); src: url("../fonts/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedRegular.woff") format("woff"), url("../fonts/RobotoCondensedRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+/* font-family: "RobotoCondensedLight"; */
+@font-face { font-family: "RobotoCondensedLight"; src: url("../fonts/RobotoCondensedLight.eot"); src: url("../fonts/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedLight.woff") format("woff"), url("../fonts/RobotoCondensedLight.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+/* font-family: "RobotoCondensedBold"; */
+@font-face { font-family: "RobotoCondensedBold"; src: url("../fonts/RobotoCondensedBold.eot"); src: url("../fonts/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedBold.woff") format("woff"), url("../fonts/RobotoCondensedBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+/* font-family: "Lobster"; */
+@font-face { font-family: "Lobster"; src: url("../fonts/Lobster-Regular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+body { padding: 0; margin: 0; background: #f1f1f1; color: #000000; min-width: 1000px; font-family: "RobotoCondensedRegular", "Arial", sans-serif; }
+
+.clearfix:after { display: table; content: ''; clear: both; }
+
+.clear { clear: both; }
+
+.container { width: 1000px; margin: 0 auto; }
+
+.bold { font-weight: bold; }
+
+.header { border-top: 10px solid #ffffff; background: #c8263a url("../images/header-top-bg.png") top center no-repeat; padding-bottom: 100px; }
+
+.header__top { margin-bottom: 15px; }
+
+.header__top .social { padding: 12px 0px 20px 15px; width: 280px; float: left; }
+
+.header__top .social__menu { float: left; }
+
+.header__top .social__items { display: inline-block; vertical-align: top; margin-right: 5px; }
+
+.header__top .social__items a { display: inline-block; vertical-align: top; width: 25px; height: 23px; line-height: 23px; }
+
+.header__top .social .soc-vk a { background: transparent url("../images/vk-bg.png") center 3px no-repeat; }
+
+.header__top .social .soc-fb a { background: transparent url("../images/fb-bg.png") center 3px no-repeat; }
+
+.header__top .social .soc-tw a { background: transparent url("../images/tw-bg.png") center 3px no-repeat; }
+
+.header__top .social .soc-od a { background: transparent url("../images/od-bg.png") center 3px no-repeat; }
+
+.header__top .header__order { display: inline-block; vertical-align: top; float: right; }
+
+.header__top .header__order a { display: inline-block; vertical-align: top; text-decoration: none; color: #c8263a; text-transform: uppercase; font-family: "RobotoCondensedBold", "Arial", sans-serif; font-size: 25px; line-height: 48px; height: 50px; background: transparent url("../images/header-btn-bg.png") -1px center no-repeat; width: 252px; padding-left: 90px; }
+
+.header__middle .logo { float: left; }
+
+.header__middle .logo h1 { font-family: "Lobster", cursive; color: #ffffff; font-size: 75px; line-height: 75px; }
+
+.header__middle .menu__nav { float: right; padding-top: 10px; }
+
+.header__middle .menu__items { display: inline-block; color: #ffffff; margin-right: 30px; padding: 20px 0; }
+
+.header__middle .menu__items a { text-decoration: none; color: #ffffff; text-transform: uppercase; font-size: 21px; line-height: 23px; }
+
+.cream { background-color: #ffffff; margin-bottom: 30px; padding: 50px 30px 40px 30px; margin-top: -50px; position: relative; }
+
+.cream__title { padding-left: 30px; padding-top: 20px; width: 650px; float: right; }
+
+.cream__title h3 { display: inline-block; text-transform: uppercase; color: #c8263a; font-size: 18px; line-height: 20px; font-weight: bold; padding-bottom: 10px; border-bottom: 4px solid #c8263a; }
+
+.cream__title h2 { font-size: 48px; line-height: 50px; margin-bottom: 34px; font-family: "Lobster", cursive; }
+
+.cream__title .cream__order { float: left; }
+
+.cream__title .order__btn { display: inline-block; text-decoration: none; color: #ffffff; text-transform: uppercase; background: #c8263a url("../images/cream-btn-bg.png") no-repeat 15px center; font-weight: bold; height: 57px; line-height: 57px; padding: 0px 23px 0px 60px; font-size: 25px; }
+
+.cream__title .cream__price { float: left; width: 136px; height: 44px; font-size: 26px; line-height: 57px; height: 57px; color: #c8263a; text-align: center; font-family: "RobotoCondensedBold", "Arial", sans-serif; background: transparent url("../images/price-m-bg.png") left top no-repeat; margin-left: 15px; }
+
+.cream__image { float: left; width: 144px; margin-left: 70px; }
+
+.cream__image img { max-width: 100%; height: auto; max-height: 255px; }
+
+.cream .sale { position: absolute; bottom: -5px; left: -5px; z-index: 1; }
+
+.main-title { color: #c8263a; font-size: 38px; line-height: 50px; padding-bottom: 20px; font-family: "Lobster", cursive; border-bottom: 5px solid #c8263a; margin-bottom: 25px; }
+
+.left_side { float: left; width: 330px; }
+
+.right_side { float: right; width: 640px; }
+
+.description__right { background-color: #ffffff; margin-bottom: 30px; width: 580px; padding: 20px 30px; float: right; color: #343434; font-family: Arial, sans-serif; font-size: 17px; line-height: 30px; }
+
+.description__right h2 { color: #c8263a; font-size: 38px; line-height: 50px; padding-bottom: 20px; font-family: "Lobster", cursive; border-bottom: 5px solid #c8263a; margin-bottom: 25px; }
+
+.description__right h3 { font-size: 30px; line-height: 38px; font-family: "Lobster", cursive; color: #222222; padding: 20px 0; }
+
+.description__right ul { margin-top: 20px; }
+
+.description__right li { padding-left: 32px; background: transparent url("../images/dis-bg.png") left 10px no-repeat; margin-bottom: 20px; }
+
+.description__right table { border-collapse: separate; border-spacing: 5px; }
+
+.description__right td { background-color: #f5f8fa; padding: 5px 10px; }
+
+.description__right tr:nth-child(2n) td { background-color: #eaeaea; }
+
+.reviews { background-color: #ffffff; margin-bottom: 30px; width: 270px; padding: 20px 30px; float: left; }
+
+.reviews h2 { color: #c8263a; font-size: 38px; line-height: 50px; padding-bottom: 20px; font-family: "Lobster", cursive; border-bottom: 5px solid #c8263a; margin-bottom: 25px; }
+
+.reviews li { margin-bottom: 25px; }
+
+.reviews p { font-family: Arial, sans-serif; font-size: 17px; line-height: 30px; color: #343434; }
+
+.reviews li img {float: left; margin-right: 20px; margin-bottom: 10px;}
+
+.review-doctors { width: 640px; float: right; margin-bottom: 30px; font-size: 17px; line-height: 30px; color: #343434; font-family: Arial, sans-serif; }
+
+.review-doctors h2 { font-size: 38px; line-height: 50px; padding-bottom: 20px; font-family: "Lobster", cursive; border-bottom: 5px solid #c8263a; margin-bottom: 25px; text-align: center; color: #000000; border-color: #e3e3e3; }
+
+.review-doctors li { background-color: #e7ebee; padding: 20px; margin-top: 30px; width: 266px; float: left; margin-left: 25px; }
+
+.review-doctors li:nth-child(odd) { margin-left: 0 }
+
+.review-doctors .li .img { border-radius: 50%; }
+
+.review-doctors h3 { font-family: "Lobster", cursive; color: #c8263a; font-size: 19px; line-height: 30px; text-align: center; }
+
+.cream__left { background: #ffffff; width: 260px; padding: 30px; margin-bottom: 30px; float: left; text-align: center; color: #222222; font-size: 17px; line-height: 30px; font-family: "Arial", sans-serif; border: 5px solid #c8263a; position: relative; }
+
+.cream__left h3 { font-family: "RobotoCondensedRegular", "Arial", sans-serif; color: #c8263a; text-transform: uppercase; font-size: 46px; line-height: 48px; font-weight: bold; padding: 15px 0; }
+
+.cream__left .product_two { width: 264px; }
+
+.cream__left .product_two img { max-width: 100%; height: auto; max-height: 367px; }
+
+.cream__left .order__btn { display: inline-block; text-decoration: none; color: #ffffff; text-transform: uppercase; background: #c8263a url("../images/sale-btn-bg.png") no-repeat 15px center; font-weight: bold; height: 57px; line-height: 57px; padding: 0px 13px 0px 55px; font-size: 22px; font-family: "RobotoCondensedBold", "Arial", sans-serif; margin-top: 20px; }
+
+.cream__left .bow { position: absolute; top: -35px; left: 0; right: 0; margin: 0 auto; }
+
+.footer { background-color: #222222; padding: 35px 0; }
+
+.footer__logo { float: left; }
+
+.footer__logo h2 { color: #ffffff; font-size: 55px; line-height: 55px; font-family: "Lobster", cursive; text-transform: capitalize; }
+
+.footer__order { float: right; }
+
+.footer__order a { display: inline-block; text-decoration: none; color: #ffffff; text-transform: uppercase; background: #c8263a url("../images/cream-btn-bg.png") no-repeat 15px center; font-weight: bold; height: 57px; line-height: 57px; padding: 0px 23px 0px 60px; font-size: 25px; }

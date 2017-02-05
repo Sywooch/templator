@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&subset=latin,cyrillic-ext,cyrillic);
+
+/* Fonts */
+tr {
+    text-align: center;
+}
+
+td{
+border: 1px solid #000000;
+padding: 2px;
+}
+th{
+border: 1px solid #000000;
+padding: 2px;
+}
+table{
+margin: 0 auto;
+width: 650px;
+max-width: 900px;
+min-width: 50px;
+height: 300px;
+max-height: 1200px;
+min-height: 100px;
+border-collapse: collapse;
+}
+body { padding: 0; margin: 0; color: #5f3219; }
+
+#header { background: url('../images/header_back.png') top center repeat-x; height: 250px; }
+#header .content { overflow: hidden; width: 1024px; margin: auto; }
+#header .content .logo { no-repeat; width: 267px; height: 240px; margin: auto; margin-top: 10px; }
+#header .content .contact { float: left; font: 30px/30px 'Lobster'; color: #FFF; text-shadow: 1px 1px #000; padding: 15px 0 0 0; text-align: center; }
+#header .content .contact span { display: block; }
+#header .content .contact .tel { margin: 4px 0 0 0; }
+#header .content .button { float: right;  top center no-repeat; }
+#header .content .button a { display: block; background: url('../images/header_button.png'); width: 207px; height: 49px; text-align: center; font: 30px/49px "Roboto Condensed"; text-transform: uppercase; text-decoration: none; color: #FFF; margin: 41px 41px 0  0; }
+#header .content .button a:hover { color: #5f3219; }
+
+#body { overflow: hidden; margin: auto; width: 1024px; }
+#sidebar { float: right; width: 294px; }
+
+#sidebar .block { background: #c21218 url('../images/sidebar_block_back.png'); padding: 10px; border-radius: 13px; }
+#sidebar .block .nav { padding: 0; margin: 0; list-style: none; text-align: center; }
+#sidebar .block .nav li a { color: #FFF; font: 300 26px 'Roboto Condensed'; text-decoration: none; text-transform: uppercase; }
+#sidebar .block .nav li a:hover { border-bottom: 1px dotted #CCC; }
+
+#content h1 { font: 35px/40px 'Roboto Condensed'; margin: 0; }
+#content { font: 18px/24px 'Roboto Condensed'; margin: 0 330px 0 0; }
+#content blockquote { margin: 0; background: #FFF url('../images/blockquote.png') 10px 20px no-repeat; border-radius: 10px; padding: 20px; }
+#content blockquote p { margin: 0 0 0 100px; }
+
+#vrach { background: url('../images/backvrach.png'); border-radius: 10px; padding: 20px; color: #FFF; }
+#vrach img { float: left; margin: 0 10px 0 0; }
+#vrach h3 { margin: 0 0 15px 0; font-size: 28px; }
+#vrach p { margin-top: 0; }
+#vrach p:last-child { margin: 0; font-style: italic; text-align: right; }
+
+#sidebar .block .reviews { padding: 0; margin: 0; list-style: none; }
+#sidebar .block .reviews li { overflow: hidden; font: 300 16px 'Roboto Condensed'; color: #f4c2c4; border-bottom: 1px dotted #f4c2c4; margin-top: 10px; }
+#sidebar .block .reviews li:first-child { margin: 0; }
+#sidebar .block .reviews li:last-child { border: none; }
+#sidebar .block .reviews li:last-child .author { margin: 5px 0 0 0; }
+#sidebar .block .reviews li img { float: left; margin: 0 5px 0 0; width: 100px; }
+#sidebar .block .reviews li .author { color: #f781a2; text-align: right; margin: 5px 0; }
+
+
+#footer { background: #A0522D; height: 154px; margin: 15px 0 0 0; }
+#footer .content { width: 1024px; margin: auto; center no-repeat; height: 154px; }
+#footer .content .logo { width: 71px; height: 125px; background: url('../images/14.png'); float: right; margin: 20px 0 0 0; }
+#footer .content .contact { color: #FFF; font: 300 20px 'Roboto Condensed'; padding: 20px 0 0 0; }
+#footer .content .contact span { display: block; }

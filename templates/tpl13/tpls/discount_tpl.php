@@ -1,0 +1,1 @@
+<div class="only_today">только <span>-50% </span>сегодня</div>

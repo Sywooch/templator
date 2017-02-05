@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after { content: ''; content: none; }
+
+q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+button, input { outline: none; border: none; }
+
+@font-face { font-family: "RobotoCondensedRegular"; src: url("../fonts/RobotoCondensedRegular.eot"); src: url("../fonts/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedRegular.woff") format("woff"), url("../fonts/RobotoCondensedRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+/* font-family: "RobotoCondensedLight"; */
+@font-face { font-family: "RobotoCondensedLight"; src: url("../fonts/RobotoCondensedLight.eot"); src: url("../fonts/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedLight.woff") format("woff"), url("../fonts/RobotoCondensedLight.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+/* font-family: "RobotoCondensedBold"; */
+@font-face { font-family: "RobotoCondensedBold"; src: url("../fonts/RobotoCondensedBold.eot"); src: url("../fonts/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensedBold.woff") format("woff"), url("../fonts/RobotoCondensedBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+body { padding: 0; margin: 0; background: #c92321 url("../images/body-bg.png") repeat; color: #000000; min-width: 1120px; font-family: "RobotoCondensedRegular", "Arial", sans-serif; }
+
+.clearfix:after { display: table; content: ''; clear: both; }
+
+.clear { clear: both; }
+
+.container { width: 1000px; margin: 0 auto; }
+
+strong { font-weight: bold; }
+
+.header__top { background: #390a09 url("../images/header-top-bg.png") left top repeat-x; border-bottom: 1px solid #f4825c; }
+
+.header__top .official__link { float: left; }
+
+.header__top .official__link a { display: inline-block; text-transform: uppercase; color: #e3542e; text-decoration: none; font-size: 18px; line-height: 22px; padding: 15px 0 15px 45px; font-weight: bold; background: transparent url("../images/sun.png") left center no-repeat; }
+
+.header__top .official__link a span { color: #ff9865; }
+
+.header__top .official__tel { float: right; }
+
+.header__top .official__tel a { text-decoration: none; color: #e3542e; font-size: 18px; line-height: 48px; padding-left: 20px; background: transparent url("../images/tel-bg.png") left center no-repeat; }
+
+.header__top .header__order { display: inline-block; vertical-align: top; width: 122px; padding-top: 10px; float: right; margin-left: 30px; }
+
+.header__top .header__order a { display: inline-block; vertical-align: top; text-decoration: none; color: #e31512; text-transform: uppercase; font-family: "RobotoCondensedBold", "Arial", sans-serif; font-size: 20px; line-height: 31px; height: 31px; width: 122px; text-align: center; background: transparent url("../images/header-btn-bg.png") top center no-repeat; }
+
+.header__middle { padding-top: 60px; background: transparent url("../images/header-middle-bg.png") center top no-repeat; }
+
+.header__middle .logo { width: 209px; height: 28px; float: left; }
+
+.header__middle .logo h1 { font-weight: bold; color: white; text-transform: uppercase; font-size: 50px; font-family: "RobotoCondensedBold", "Arial", sans-serif; }
+
+.footer__logo h1 { font-weight: bold; color: white; text-transform: uppercase; font-size: 50px; font-family: "RobotoCondensedBold", "Arial", sans-serif; }
+
+.header__middle .menu__nav { float: right; }
+
+.header__middle .menu__items { float: left; color: #ffb274; margin-left: 30px; }
+
+.header__middle .menu__items a { text-decoration: none; color: #ffb274; text-transform: uppercase; font-size: 21px; line-height: 23px; }
+
+.header__middle .social { padding: 0px 0px 20px 15px; float: right; margin-top: 70px; }
+
+.header__middle .social__menu { float: left; }
+
+.header__middle .social__items { float: left; vertical-align: top; margin-right: 5px; }
+
+.header__middle .social__items a { display: inline-block; vertical-align: top; width: 25px; height: 23px; line-height: 23px; }
+
+.header__middle .social .soc-vk a { background: transparent url("../images/vk-bg.png") center 3px no-repeat; }
+
+.header__middle .social .soc-fb a { background: transparent url("../images/fb-bg.png") center 3px no-repeat; }
+
+.header__middle .social .soc-tw a { background: transparent url("../images/tw-bg.png") center 3px no-repeat; }
+
+.header__middle .social .soc-od a { background: transparent url("../images/od-bg.png") center 3px no-repeat; }
+
+.cream { background-color: #f8f9fb; padding-bottom: 60px; margin-bottom: 30px; width: 1120px; margin-left: auto; margin-right: auto; }
+
+.cream__title { padding-top: 55px; width: 620px; float: right; }
+
+.cream__title h3 { text-transform: uppercase; color: #c6221d; font-size: 18px; line-height: 40px; }
+
+.cream__title h2 { font-size: 45px; line-height: 40px; color: #222222; font-family: "RobotoCondensedRegular"; text-transform: uppercase; margin-bottom: 30px; }
+
+.cream__title .cream__order { float: left; text-align: center; }
+
+.cream__title .order__btn { display: inline-block; text-decoration: none; color: #ffffff; text-transform: uppercase; background: transparent url("../images/cream-btn-bg.png") left top no-repeat; font-weight: bold; height: 46px; line-height: 46px; font-size: 25px; width: 245px; font-family: "RobotoCondensedRegular", "Arial", sans-serif; }
+
+.cream__title .cream__price { float: left; width: 128px; font-size: 26px; line-height: 46px; height: 46px; color: #dc155b; text-align: center; font-family: "RobotoCondensedBold", "Arial", sans-serif; margin-left: 15px; background: #f8f9fb url("../images/price-m-bg.png") center center no-repeat; }
+
+.cream__image { float: left; width: 330px; height: 324px; background: #ffffff; margin-top: -60px; box-shadow: 0px 0px 2px #EFF1F2; }
+
+.cream__image .product { width: 140px; height: 250px; text-align: center; margin: 35px auto 0; }
+
+.cream__image .product img { max-width: 100%; height: auto; max-height: 250px; }
+
+.main-title { color: #c2251c; font-size: 48px; line-height: 50px; font-family: "RobotoCondensedRegular"; margin-bottom: 25px; text-transform: uppercase; }
+
+.left_side { float: left; width: 330px; }
+
+.right_side { float: right; width: 640px; }
+
+.description__right { background: #ffffff; margin-bottom: 60px; width: 580px; float: right; color: #343434; font-family: Arial, sans-serif; font-size: 17px; line-height: 30px; padding: 20px 30px; }
+
+.description__right h3 { font-size: 38px; line-height: 40px; font-family: "RobotoCondensedRegular"; color: #1a1b1b; padding: 20px 0; text-transform: uppercase; margin-top: 20px; }
+
+.description__right h2 { color: #c2251c; font-size: 48px; line-height: 50px; font-family: "RobotoCondensedRegular"; margin-bottom: 25px; text-transform: uppercase; }
+
+.description__right ul { margin-top: 20px; }
+
+.description__right li { padding-left: 45px; background: transparent url("../images/dis-bg.png") left 5px no-repeat; margin-bottom: 20px; }
+
+.description__right table { border-collapse: separate; border-spacing: 5px; }
+
+.description__right td { background-color: #eef0f3; padding: 5px 10px; }
+
+.description__right tr:nth-child(2n) td { background-color: #dfe2e8; }
+
+.reviews { background-color: #d74137; width: 300px; padding: 20px 15px; margin-bottom: 60px; }
+
+.reviews h2 { color: #ffffff; font-size: 48px; line-height: 50px; font-family: "RobotoCondensedRegular"; margin-bottom: 25px; text-transform: uppercase; }
+
+.reviews li { margin-bottom: 50px; padding: 0 20px; }
+
+.reviews img { margin-bottom: 20px; }
+
+.reviews li p { font-family: Arial, sans-serif; font-size: 17px; line-height: 30px; color: #ffd6c0; }
+
+.review-doctors { width: 640px; float: right; margin-bottom: 30px; font-size: 17px; line-height: 30px; color: #ffffff; font-family: Arial, sans-serif; }
+
+.review-doctors h2{ color: #ffffff; font-size: 48px; line-height: 50px; font-family: "RobotoCondensedRegular"; margin-bottom: 25px; text-transform: uppercase; }
+
+.review-doctors li { margin-top: 30px; background-color: #f8f9fb; padding: 30px; }
+
+.review-doctors li img { float: left; margin-right: 30px; margin-bottom: 15px; }
+
+.review-doctors li p { color: #343434; }
+
+.cream__left { width: 330px; float: left; text-align: center; color: #ffa286; font-size: 17px; line-height: 30px; font-family: "Arial", sans-serif; position: relative; }
+
+.cream__left .sale { background: transparent url("../images/sale-bg.png") center top no-repeat; padding-top: 50px; height: 230px; margin-bottom: 30px; }
+
+.cream__left .product_two { width: 95px; margin: 0 auto; text-align: center; }
+
+.cream__left .product_two img { max-width: 100%; height: auto; max-height: 177px; }
+
+.cream__left h3 { color: #ffcc57; text-transform: uppercase; font-family: "RobotoCondensedRegular", "Arial", sans-serif; font-size: 48px; line-height: 50px; padding-bottom: 15px; }
+
+.cream__left .order__btn { display: inline-block; text-decoration: none; color: #9f1615; text-transform: uppercase; background: transparent url("../images/sale-btn-bg.png") no-repeat 0 0; font-weight: bold; height: 48px; line-height: 48px; width: 274px; font-size: 25px; border-radius: 25px; margin: 40px auto 0; font-family: "RobotoCondensedRegular", "Arial", sans-serif; }
+
+.footer { background: #4a0e0d url("../images/footer-bg.png") repeat-x top center; padding: 20px 0 35px; border-top: 1px solid #df5d50; }
+
+.footer__logo { width: 209px; height: 28px; float: left; }
+
+.footer__logo img { max-width: 100%; }
+
+.footer__order { display: inline-block; vertical-align: top; width: 122px; float: right; }
+
+.footer__order a { display: inline-block; vertical-align: top; text-decoration: none; color: #e31512; text-transform: uppercase; font-family: "RobotoCondensedBold", "Arial", sans-serif; font-size: 20px; line-height: 31px; height: 31px; width: 122px; text-align: center; background: transparent url("../images/header-btn-bg.png") top center no-repeat; }

@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+
+body { padding: 0; margin: 0; font: 300 14px/18px Roboto; }
+
+#turmaprost { width: 1000px; margin: auto; overflow: hidden; }
+
+
+
+#leftmenu { width: 130px; float: left; background: #fff1be; height: 100%; position: fixed; padding: 10% 0 0 0; }
+#rightcontent { margin: 0 0 0 150px; }
+
+#leftmenu ul { padding: 0; margin: 0; list-style: none; }
+#leftmenu ul li { padding:0 0 21px 0; width: 130px; }
+#leftmenu ul li a {font-size:14px;color:#e8b69c;font-weight:300;display:inline-block; text-align: center; display: block; text-decoration: none; }
+#leftmenu ul li span { display: block; margin: auto; margin-bottom: 3px; }
+#leftmenu ul li .nav1 {background:url(../images/nav1.png) no-repeat 0 0;width:39px;height:60px;}
+#leftmenu ul li .nav2 {background:url(../images/nav2.png) no-repeat 0 0;width:38px;height:45px;}
+#leftmenu ul li .nav3 {background:url(../images/nav3.png) no-repeat 0 0;width:38px;height:39px;}
+#leftmenu ul li .nav4 {background:url(../images/nav4.png) no-repeat 0 0;width:53px;height:43px;}
+#leftmenu ul li .nav5 {background:url(../images/nav5.png) no-repeat 0 0;width:49px;height:57px;}
+
+#leftmenu ul li a:hover .nav1,#leftmenu ul li a:hover .nav2,#leftmenu ul li a:hover .nav3,#leftmenu ul li a:hover .nav4,#leftmenu ul li a:hover .nav5 { background-position: right 0; }
+#leftmenu ul li a:hover {color:#fff;text-decoration:none;}
+
+#header { overflow: hidden; position: relative }
+#header .girl { width: 404px; height: 391px; background: url(../images/header.jpg) no-repeat; float: right; }
+#header .yellow { background: #fff1be; height: 100px; width: 446px; position: absolute; margin: 0 404px 0 0; bottom: 0%; }
+#header .title { font: 100 35px/40px Roboto; text-align: center; padding: 50px 0 0 0; color: #8c6239; }
+#header .title span { display: block; font-size: 70px; margin: 20px 0 0 0; color: #df61ae; }
+#header .title div { font-size: 25px; margin: 15px 0 0 0; color: #ffb3ab; }
+
+#enter .line1 { background: #ffb3ab; padding: 10px 15px; }
+#enter .line2 { background: #f79f95; padding: 10px 15px; }
+
+#enter .line1 h1 { font: 100 35px/40px Roboto; padding: 0; margin: 0; text-align: center; }
+#enter .line2 p { margin: 0; }
+
+#rightcontent ul { padding: 0; margin: 0 0 0 20px; list-style: none; }
+#rightcontent ul li { background: url(../images/bullet.png) left 1px no-repeat; padding: 0 0 0 20px; margin: 3px 0 0 0; }
+
+#rightcontent h2, #rightcontent h3 { font: 300 25px Roboto; margin: 0; letter-spacing: -1px; }
+
+#rightcontent ul + h3 { margin-top: 15px; }
+#rightcontent ul + .vrach { margin-top: 15px; }
+
+#rightcontent blockquote { color: #666; background: #fff1be; margin: 0; padding: 10px; line-height: 20px; }
+#rightcontent blockquote p { margin: 0; padding: 0 0 0 60px; background: url('../images/blockquote.png') top left no-repeat; background-size: 50px; min-height: 50px; }
+
+#rightcontent .blockquote { background: #df61ae; color: #FFF; }
+#rightcontent .blockquote a { color: #fff1be; text-decoration: none; border-bottom: 1px solid #fff1be; }
+
+#rightcontent .vrach { background: #00cccc; overflow: hidden; padding: 10px; }
+#rightcontent .vrach .title { font: 300 25px Roboto; margin: 0; letter-spacing: -1px; color: #FFF; margin: 0 0 10px 0; text-align: center; }
+#rightcontent .vrach img { float: left; border-radius: 50%; width: 100px; }
+#rightcontent .vrach p { margin: 0 0 0 115px; line-height: 20px; }
+#rightcontent .vrach p+p { margin-top: 10px; }
+#rightcontent .vrach .author { text-align: right; font-style: italic; margin: 10px 0 0 0; }
+
+
+
+#comments {}
+#comments .title { font: 300 30px/30px Roboto; padding: 5px 0; background: #f79f95; text-align: center; color: #FFF; }
+
+#comments .item { overflow: hidden; margin: 10px 0 0 0; }
+#comments .item .avatar { float: left; -webkit-border-radius: 50%; border-radius: 50%; overflow: hidden; height: 80px; width: 80px; box-shadow: 0 0 10px #FFF; }
+#comments .item .avatar img { width: auto; height: 80px; }
+#comments .item .text { margin: 30px 0 0 50px; background: #ffdcc3; padding: 10px 10px 10px 40px; }
+#comments .item .text p { margin: 10px 0 0 0; }
+#comments .item .text .name { font-style: italic; }
+
+#footer { margin: 15px 0 0 0; border-top: 1px solid #df61ae; padding: 10px 0; }
+
+#price-types { overflow: hidden; }
+#price-types .text-skin {display:inline-block;font-size:32px;line-height: 35px;color:#a67c52;padding:30px 4.774% 0 6.45%;text-align:right;margin:0 ; float: left; }
+#price-types .item {font-size:16px;color:#a67c52;text-align:center;display:inline-block;padding:0 1.3%;margin:0 -3px;}
+#price-types .item div {padding:12px 0 0 0;}
+
+#buy { background: #df61ae; color: #FFF; margin: 15px 0 5px 0; padding: 10px; font: 300 40px Roboto; display: block; text-align: center; text-decoration: none; }
+#buy:hover { background: #b85e95; }
+.buy { background: #df61ae; color: #FFF; margin: 15px 0 5px 0; padding: 10px; font: 300 40px Roboto; display: block; text-align: center; text-decoration: none; }
+.buy:hover { background: #b85e95; }
+
+#box-description {overflow:hidden;padding:0 0 0 10px;}
+#box-description .box {background:#9fcc3b;width:28%;margin:0 15px 0 0;padding:0 0 40px 3.02%;font-size:16px;color:#fff;float:left;font-weight:300;}
+#box-description .box div {font-size:30px;color:#eaff52;padding:25px 0 25px 0; line-height: 30px;}
