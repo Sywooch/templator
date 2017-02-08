@@ -18,6 +18,9 @@
             "yii\\composer\\Installer::setPermission"
         ]
     },
+    "config": {
+        "vendor-dir": "protected/vendor"
+    },
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
