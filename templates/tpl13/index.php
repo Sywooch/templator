@@ -9,6 +9,7 @@
 	<meta name="keywords" content="{{keywords|text}}">
 	<link href="css/style.css" rel="stylesheet">
 	{{код метрики|simplehtml}}
+	{{Мета для google|simplehtml|tpl:meta_google_tpl|default:meta_google_tpl}}
 </head>
 
 <body>
