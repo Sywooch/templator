@@ -8,6 +8,7 @@
 	<meta name="description" content="{{discription|text}}">
 	<meta name="keywords" content="{{keywords|text}}">
 	<link href="css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="js/index.js"></script>
 	{{код метрики|simplehtml}}
 	{{Мета для google|simplehtml|tpl:meta_google_tpl|default:meta_google_tpl}}
 </head>
@@ -77,7 +78,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container main_content">
 	<!--left side-->
 	<div class="left_side">
 		<div class="reviews">
