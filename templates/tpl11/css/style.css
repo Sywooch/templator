@@ -167,8 +167,14 @@ strong { font-weight: bold; }
 
 .footer__order a { display: inline-block; vertical-align: top; text-decoration: none; color: #ffffff; text-transform: uppercase; font-family: "RobotoCondensedBold", "Arial", sans-serif; font-size: 30px; line-height: 54px; height: 54px; background: #32c5db url("../images/header-btn-bg.png") -27px center no-repeat; padding: 0 15px 0 64px; border-radius: 35px; }
 
+.menu__toggler { display: none; }
+
 @media screen and (max-width: 320px) {
 	body { min-width: 320px; }
+	.menu__toggler { display: block; width: 24px; height: 24px; margin: 0 auto; padding: 10px; background: url('../images/menu_icon.png') no-repeat center center; transform: rotate(0); transition: all 0.2s ease 0s; }
+	.menu__toggler.active { transform: rotate(90deg); }
+	.menu__toggler + .menu__nav { height: 0; opacity: 0; margin-top: 0; visibility: hidden; transition: all 0.2s ease 0s; }
+	.menu__toggler + .menu__nav.expanded { height: auto; margin-top: 0; opacity: 1; visibility: visible; }
 	.container { width: 100%; }
 	.header__top { text-align: center; }
 	.header__middle { padding: 20px 5px; }

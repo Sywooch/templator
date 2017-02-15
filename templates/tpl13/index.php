@@ -8,6 +8,7 @@
 	<meta name="description" content="{{discription|text}}">
 	<meta name="keywords" content="{{keywords|text}}">
 	<link href="css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="js/index.js"></script>
 	{{код метрики|simplehtml}}
 	{{Мета для google|simplehtml|tpl:meta_google_tpl|default:meta_google_tpl}}
 </head>
@@ -21,7 +22,8 @@
 				<div class="official__link">
 					{{Официальный сайт|simplehtml|tpl:button_oficial_tpl|default:button_oficial_tpl}}
 				</div>
-				<div class="menu__nav">
+				<div id="menu_toggler" class="menu__toggler"></div>
+				<div class="menu__nav" id="menu">
 					<ul>
 						{{Меню|simplehtml|tpl:menu_tpl|default:menu_tpl}}
 						<div class="clear"></div>

@@ -35,7 +35,8 @@
 			<div class="logo">
 				<h1>{{Название продукта|text:Maxisize}}</h1>
 			</div>
-			<div class="menu__nav">
+			<div id="menu_toggler" class="menu__toggler"></div>
+			<div class="menu__nav" id="menu">
 				<ul>
 					{{Меню|simplehtml|tpl:menu_tpl|default:menu_tpl}}
 					<div class="clear"></div>
