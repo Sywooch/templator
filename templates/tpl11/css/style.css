@@ -166,3 +166,54 @@ strong { font-weight: bold; }
 .footer__order { float: right; }
 
 .footer__order a { display: inline-block; vertical-align: top; text-decoration: none; color: #ffffff; text-transform: uppercase; font-family: "RobotoCondensedBold", "Arial", sans-serif; font-size: 30px; line-height: 54px; height: 54px; background: #32c5db url("../images/header-btn-bg.png") -27px center no-repeat; padding: 0 15px 0 64px; border-radius: 35px; }
+
+.menu__toggler { display: none; }
+
+@media screen and (max-width: 320px) {
+	body { min-width: 320px; }
+	.menu__toggler { display: block; width: 24px; height: 24px; margin: 0 auto; padding: 10px; background: url('../images/menu_icon.png') no-repeat center center; transform: rotate(0); transition: all 0.2s ease 0s; }
+	.menu__toggler.active { transform: rotate(90deg); }
+	.menu__toggler + .menu__nav { height: 0; opacity: 0; margin-top: 0; visibility: hidden; transition: all 0.2s ease 0s; }
+	.menu__toggler + .menu__nav.expanded { height: auto; margin-top: 0; opacity: 1; visibility: visible; }
+	.container { width: 100%; }
+	.header__top { text-align: center; }
+	.header__middle { padding: 20px 5px; }
+	.header__middle .logo { float: none; margin-bottom: 25px; text-align: center; }
+	.header__middle .logo h1 { font-size: 40px; line-height: 48px; }
+	.header__middle .header__order { float: none; width: 100%; }
+	.header__middle .header__order a { text-align: center; font-size: 22px; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+	.header__nav { margin-bottom: 0; padding: 10px 0; }
+	.header__nav .menu__nav { float: none; }
+	.header__nav .menu__items { display: block; text-align: center; padding: 10px 0; margin: 0; }
+	.header__nav .social { float: none; margin: auto; }
+	.cream { padding: 30px 5px 25px 5px; margin-top: 0; margin-bottom: 20px; }
+	.cream__image { float: none; margin: auto; }
+	.cream__title { width: 100%; float: none; margin: auto; text-align: center; padding: 25px 0 0; }
+	.cream__title h2 { font-size: 38px; line-height: 40px; margin-bottom: 25px; }
+	.cream__title .cream__order { float: none; }
+	.cream__title .cream__price { float: none; margin: 10px auto 0; }
+	.description__left { width: 100%; float: none; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; padding: 20px 5px; font-size: 15px; line-height: 24px; margin-bottom: 20px; }
+	.description__left h2 { font-size: 40px; line-height: 42px; }
+	.description__left p + h2 { padding-top: 10px; }
+	.description__left ul { margin-top: 10px; }
+	.description__left li { padding-left: 40px; margin-bottom: 10px; }
+	.description__left table { width: 100% !important; }
+	.reviews { width: 100%; float: none; padding: 10px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 20px; }
+	.reviews h2 { font-size: 40px; line-height: 42px; margin-bottom: 15px; }
+	.reviews ul { margin-bottom: 0; }
+	.reviews li { margin-bottom: 15px; }
+	.reviews li:after { margin-bottom: 0; }
+	.reviews li p { padding: 0 5px; font-size: 15px; line-height: 20px; }
+	.review-doctors { float: none; width: 100%; font-size: 15px; line-height: 20px; margin-bottom: 10px; padding: 10px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+	.review-doctors h2 { font-size: 40px; line-height: 42px; margin-bottom: 0; }
+	.review-doctors li { margin-top: 0; padding: 10px; margin-bottom: 10px; }
+	.review-doctors li:last-of-type { margin-bottom: 0; }
+	.cream__right { float: none; padding: 20px 5px; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; font-size: 15px; line-height: 22px; margin-bottom: 0; }
+	.cream__right .product_two { margin: auto; }
+	.cream__right h3 { padding: 10px 0; }
+	.footer { padding: 20px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+	.footer__logo { float: none; text-align: center; margin-bottom: 10px; }
+	.footer__logo h2 { font-size: 40px; line-height: 40px; padding-bottom: 0; }
+	.footer__order { float: none; }
+	.footer__order a { width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; text-align: center; padding: 0; font-size: 20px; }
+}

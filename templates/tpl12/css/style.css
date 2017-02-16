@@ -163,3 +163,56 @@ body { padding: 0; margin: 0; background: #f1f1f1; color: #000000; min-width: 10
 .footer__order { float: right; }
 
 .footer__order a { display: inline-block; text-decoration: none; color: #ffffff; text-transform: uppercase; background: #c8263a url("../images/cream-btn-bg.png") no-repeat 15px center; font-weight: bold; height: 57px; line-height: 57px; padding: 0px 23px 0px 60px; font-size: 25px; }
+
+.menu__toggler { display: none; }
+
+@media screen and (max-width: 320px) {
+	body { min-width: 320px; }
+	.menu__toggler { display: block; width: 24px; height: 24px; margin: 10px auto 0; padding: 10px; background: url('../images/menu_icon.png') no-repeat center center; transform: rotate(0); transition: all 0.2s ease 0s; }
+	.menu__toggler.active { transform: rotate(90deg); }
+	.menu__toggler + .menu__nav { height: 0; opacity: 0; margin-top: -10px; visibility: hidden; transition: all 0.2s ease 0s; }
+	.menu__toggler + .menu__nav.expanded { height: auto; margin-top: 0; opacity: 1; visibility: visible; }
+	.container { width: 100%; }
+	.header { background: #c02237 url(../images/header-top-bg.png) top center no-repeat; padding-bottom: 10px; }
+	.header__top .container { display: flex; -webkit-display: flex; -moz-display: flex; -ms-display: flex; o-display: flex; flex-wrap: wrap; }
+	.header__top .social { float: none; margin: auto; text-align: center; padding: 12px 0; order: 1; }
+	.header__top .social__menu { float: none; }
+	.header__top .header__order { float: none; width: 100%; order: 0; }
+	.header__top .header__order a { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; width: 100%; background-size: contain; text-align: center; padding: 0; background-position: 0 0; }
+	.header__middle .logo { float: none; }
+	.header__middle .logo h1 { line-height: 60px; font-size: 60px; text-align: center; }
+	.header__middle .menu__nav { float: none; }
+	.header__middle .menu__items { display: block; padding: 10px 0; margin: 0; text-align: center; }
+	.cream { margin: 0; padding: 20px 5px; }
+	.cream__image { float: none; margin: auto; }
+	.cream__title { float: none; width: 100%; padding: 10px 0; text-align: center; }
+	.cream__title h2 { margin-bottom: 20px; }
+	.cream__title .cream__order { float: none; }
+	.cream__title .order__btn { display: block;text-align: center; padding: 0; font-size: 20px; }
+	.cream__title .cream__price { float: none; display: block; margin: 10px auto; }
+	.cream .sale { top: 90px; left: 0px; bottom: initial; }
+	.main_content.container { display: flex; -webkit-display: flex; -moz-display: flex; -ms-display: flex; o-display: flex; flex-wrap: wrap; }
+	.main_content .left_side { float: none; width: 100%; order: 1; }
+	.main_content .description__right { float: none; width: 100%; order: 0; padding: 10px 5px; font-size: 15px; line-height: 22px; margin-bottom: 20px; }
+	.description__right h2 { margin-bottom: 15px; font-size: 30px; line-height: 32px; border-bottom-width: 3px; padding-bottom: 10px; }
+	.description__right p + h2 { margin-top: 10px; }
+	.description__right ul { margin-top: 10px; margin-left: 10px; }
+	.description__right li { padding-left: 20px; margin-bottom: 5px; background-position: left 5px; }
+	.description__right table { max-width: 100%; }
+	.review-doctors { float: none; width: 100%; padding: 0 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; display: block; font-size: 15px; line-height: 22px; margin-bottom: 0; }
+	.review-doctors h2 { font-size: 40px; line-height: 40px; margin-bottom: 20px; border-width: 3px; }
+	.review-doctors li { width: 300px; margin-left: 25px; float: none; margin: 0 auto 10px; padding: 10px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+	.review-doctors li:nth-child(odd) { margin: 0 auto 10px; }
+	.review-doctors h3 { line-height: 20px; }
+	.reviews { float: none; padding: 20px 5px 0; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 0; }
+	.reviews h2 { margin-bottom: 20px; border-width: 3px; text-align: center; padding-bottom: 10px; }
+	.reviews p { font-size: 15px; line-height: 22px; }
+	.reviews li { margin-bottom: 15px; }
+	.cream__left { float: none; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; font-size: 15px; line-height: 22px; padding: 20px 5px; margin-bottom: 0; }
+	.cream__left .product_two { margin: auto; }
+	.footer { padding: 20px 0; }
+	.footer__logo { float: none; text-align: center; margin-bottom: 10px; }
+	.footer__order { float: none; text-align: center; }
+	.footer__order a { font-size: 20px; }
+
+}
