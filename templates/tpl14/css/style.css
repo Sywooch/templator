@@ -171,8 +171,8 @@ strong { font-weight: bold; }
 
 .menu__toggler { display: none; }
 
-@media screen and (max-width: 320px) {
-	body { min-width: 320px; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+	body { min-width: 100%; }
 	.menu__toggler { display: block; width: 24px; height: 24px; margin: 0 auto 10px; padding: 10px; background: url('../images/menu_icon.png') no-repeat center center; transform: rotate(0); transition: all 0.2s ease 0s; }
 	.menu__toggler.active { transform: rotate(90deg); }
 	.menu__toggler + .menu__nav { height: 0; opacity: 0; margin-top: -10px; visibility: hidden; transition: all 0.2s ease 0s; }
@@ -205,7 +205,7 @@ strong { font-weight: bold; }
 	.description__right p ~ h2 { margin-top: 15px; } 
 	.description__right ul { margin-top: 10px; }
 	.description__right li { padding-left: 25px; margin-bottom: 10px; }
-	.description__right table { width: 100%; }
+	.description__right table { width: 100% !important; }
 	.reviews { width: 100%; padding: 10px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 30px; }
 	.reviews h2 { font-size: 45px; line-height: 48px; margin-bottom: 15px; }
 	.reviews li { margin-bottom: 30px; padding-bottom: 0 10px; }
@@ -214,7 +214,7 @@ strong { font-weight: bold; }
 	.review-doctors { float: none; width: 100%; font-size: 15px; line-height: 20px; padding: 15px 10px 10px; margin-bottom: 0; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
 	.review-doctors h2 { font-size: 40px; line-height: 45px; }
 	.review-doctors li { padding: 10px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 10px; }
-	.cream__left { font-size: 15px; line-height: 20px; }
+	.cream__left { font-size: 15px; line-height: 20px; width: 100%; }
 	.cream__left .sale { margin-bottom: 20px; }
 	.cream__left h3 { padding-bottom: 10px; }
 	.cream__left .order__btn { margin: 20px 0; }
