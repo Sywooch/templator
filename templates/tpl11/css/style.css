@@ -185,7 +185,9 @@ strong { font-weight: bold; }
 	.header__nav { margin-bottom: 0; padding: 10px 0; }
 	.header__nav .menu__nav { float: none; }
 	.header__nav .menu__items { display: block; text-align: center; padding: 10px 0; margin: 0; }
-	.header__nav .social { float: none; margin: auto; width: 90%; }
+	.header__nav .social { float: none; margin: auto; width: 90%; padding: 10px 0; text-align: center; }
+	.header__nav .social h2 { float: none; display: block; margin: 0 0 10px; }
+	.header__nav .social__menu { float: none; }
 	.cream { padding: 30px 5px 25px 5px; margin-top: 0; margin-bottom: 20px; }
 	.cream__image { float: none; margin: auto; }
 	.cream__title { width: 100%; float: none; margin: auto; text-align: center; padding: 25px 0 0; }
