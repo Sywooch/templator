@@ -169,14 +169,8 @@ strong { font-weight: bold; }
 
 .footer__order a { display: inline-block; vertical-align: top; text-decoration: none; color: #e31512; text-transform: uppercase; font-family: "RobotoCondensedBold", "Arial", sans-serif; font-size: 20px; line-height: 31px; height: 31px; width: 122px; text-align: center; background: transparent url("../images/header-btn-bg.png") top center no-repeat; }
 
-.menu__toggler { display: none; }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
 	body { min-width: 100%; }
-	.menu__toggler { display: block; width: 24px; height: 24px; margin: 0 auto 10px; padding: 10px; background: url('../images/menu_icon.png') no-repeat center center; transform: rotate(0); transition: all 0.2s ease 0s; }
-	.menu__toggler.active { transform: rotate(90deg); }
-	.menu__toggler + .menu__nav { height: 0; opacity: 0; margin-top: -10px; visibility: hidden; transition: all 0.2s ease 0s; }
-	.menu__toggler + .menu__nav.expanded { height: auto; margin-top: 0; opacity: 1; visibility: visible; }
 	.container { width: 100%; }
 	.header__top { padding-bottom: 10px; }
 	.header__top .official__link { float: none; text-align: center; }

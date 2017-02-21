@@ -164,14 +164,8 @@ body { padding: 0; margin: 0; background: #f1f1f1; color: #000000; min-width: 10
 
 .footer__order a { display: inline-block; text-decoration: none; color: #ffffff; text-transform: uppercase; background: #c8263a url("../images/cream-btn-bg.png") no-repeat 15px center; font-weight: bold; height: 57px; line-height: 57px; padding: 0px 23px 0px 60px; font-size: 25px; }
 
-.menu__toggler { display: none; }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
 	body { min-width: 100%; }
-	.menu__toggler { display: block; width: 24px; height: 24px; margin: 10px auto 0; padding: 10px; background: url('../images/menu_icon.png') no-repeat center center; transform: rotate(0); transition: all 0.2s ease 0s; }
-	.menu__toggler.active { transform: rotate(90deg); }
-	.menu__toggler + .menu__nav { height: 0; opacity: 0; margin-top: -10px; visibility: hidden; transition: all 0.2s ease 0s; }
-	.menu__toggler + .menu__nav.expanded { height: auto; margin-top: 0; opacity: 1; visibility: visible; }
 	.container { width: 100%; }
 	.header { background: #c02237 url(../images/header-top-bg.png) top center no-repeat; padding-bottom: 10px; }
 	.header__top .container { display: flex; -webkit-display: flex; -moz-display: flex; -ms-display: flex; o-display: flex; flex-wrap: wrap; }
