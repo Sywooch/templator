@@ -1,0 +1,46 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+    body { min-width: 100%; }
+    .container { width: 100%; }
+    .header { background-size: contain; }
+    .header-container { width: 100%; padding-bottom: 20px; background: transparent; }
+    .header__top .container { text-align: center; }
+    .header__top .official__link { float: none; }
+    .header__top .menu__nav { float: none; }
+    .header__top .menu__items { float: none; margin-right: 0; }
+    .header__middle .logo { height: 76px; margin-bottom: 25px; }
+    .header__middle .logo h1 { font-size: 50px; line-height: 50px; padding-bottom: 15px; }
+    .header__middle .social { float: none; text-align: center; padding: 10px 0 0; }
+    .header__middle .social__menu { float: none; }
+    .header__middle .social__items { float: none; display: inline-block; }
+    .header__middle .social__items:last-of-type { margin-right: 0; }
+    .cream { padding: 30px 5px 25px 5px; margin-top: 0; margin-bottom: 0; }
+    .cream__image { float: none; margin: auto; }
+    .cream__title { width: 100%; float: none; margin: auto; text-align: center; padding: 85px 0 0; }
+    .cream__title h2 { font-size: 38px; line-height: 40px; margin-bottom: 25px; }
+    .cream__title .cream__order { float: none; }
+    .cream__title .cream__price { float: none; margin: 10px auto 0; }
+    .cream .sale { top: 140px; bottom: initial; left: 50%; margin-left: -162px; }
+    .left_side { width: 100%; float: none; }
+    .description__right { width: 100%; float: none; font-size: 15px; line-height: 20px; padding: 10px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 20px; }
+    .description__right h2 { font-size: 40px; line-height: 42px; margin-bottom: 10px; }
+    .description__right p + h2 { margin-top: 10px; }
+    .description__right ul { margin-top: 10px; }
+    .description__right li { margin-bottom: 10px; padding-left: 28px; background-position: left center; min-height: 20px; }
+    .description__right table { width: 100% !important; padding: 0; }
+    .review-doctors { float: none; width: 100%; font-size: 15px; line-height: 20px; margin-bottom: 20px; }
+    .review-doctors h2 { font-size: 40px; line-height: 42px; margin-bottom: 10px; }
+    .review-doctors li { margin-top: 10px; }
+    .right_side { float: none; width: 100%; }
+    .reviews { width: 100%; float: none; padding: 10px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 0; }
+    .reviews h2 { font-size: 40px; line-height: 42px; margin-bottom: 15px; }
+    .reviews li { margin-bottom: 15px; }
+    .reviews li:after { margin-bottom: 0; }
+    .reviews li p { padding: 0 5px; font-size: 15px; line-height: 20px; }
+    .cream__left { width: 100%; float: none; font-size: 15px; line-height: 20px; padding: 30px 5px 20px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; margin-bottom: 0; }
+    .cream__left .product_two { margin: auto; }
+    .cream__left .only_today { background-size: 320px; left: 50%; margin-left: -160px; bottom: 90px; font-size: 16px; line-height: 79px; right: 0; height: 88px; padding: 0; width: 320px; }
+    .cream__left .only_today span { font-size: 25px; margin-left: 14px; padding: 0 25px; position: relative; top: 3px; }
+    .footer { padding: 20px 5px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+    .footer__logo h2 { font-size: 60px; line-height: 60px; padding-bottom: 26px; }
+    .footer__order a { width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; text-align: center; padding: 0; }
+}
