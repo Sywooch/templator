@@ -12,7 +12,7 @@
     .header__middle .logo h1 { line-height: 60px; font-size: 60px; text-align: center; }
     .header__middle .menu__nav { float: none; }
     .header__middle .menu__items { display: block; padding: 10px 0; margin: 0; text-align: center; }
-    .cream { margin: 0; padding: 20px 5px; }
+    .cream { margin: 0; padding: 20px 5px; width: 100%; }
     .cream__image { float: none; margin: auto; }
     .cream__title { float: none; width: 100%; padding: 10px 0; text-align: center; }
     .cream__title h2 { margin-bottom: 20px; }
