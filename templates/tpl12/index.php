@@ -47,7 +47,7 @@
 	</div>
 </div>
 <!--header end-->
-<div class="container main_content">
+<div class="container">
 	<div class="cream">
 		<div class="cream__image">
 			<img src="images/product.png" alt="">

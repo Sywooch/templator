@@ -1,5 +1,6 @@
 .menu__toggler { display: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+    img { max-width: 100%; }
     body { min-width: 100%; }
     .container { width: 100%; }
     .header { background: #c02237 url(../images/header-top-bg.png) top center no-repeat; padding-bottom: 10px; }
@@ -7,7 +8,7 @@
     .header__top .social { float: none; margin: auto; text-align: center; padding: 12px 0; order: 1; }
     .header__top .social__menu { float: none; }
     .header__top .header__order { float: none; width: 100%; order: 0; }
-    .header__top .header__order a { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; width: 252px; height: 38px; line-height: 30px; background-size: contain; text-align: center; padding: 0 0 0 15px; background-position: 0 0; display: block; margin: 0 auto; font-size: 16px; }
+    .header__top .header__order a { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; width: 100%; height: 38px; line-height: 30px;  background: #ffffff url("../images/header-btn-bg.png") 0 center no-repeat; background-size: contain; text-align: center; padding: 0 0 0 15px; background-position: 0 0; display: block; margin: 0 auto; font-size: 16px; }
     .header__middle .logo { float: none; }
     .header__middle .logo h1 { line-height: 60px; font-size: 60px; text-align: center; }
     .header__middle .menu__nav { float: none; }
@@ -20,9 +21,9 @@
     .cream__title .order__btn { display: block;text-align: center; padding: 0; font-size: 20px; }
     .cream__title .cream__price { float: none; display: block; margin: 10px auto; }
     .cream .sale { top: 90px; left: 50%; margin-left: -100px; bottom: initial; }
-    .main_content.container { display: flex; -webkit-display: flex; -moz-display: flex; -ms-display: flex; o-display: flex; flex-wrap: wrap; }
-    .main_content .left_side { float: none; width: 100%; order: 1; }
-    .main_content .description__right { float: none; width: 100%; order: 0; padding: 10px 5px; font-size: 15px; line-height: 22px; margin-bottom: 20px; }
+    .header ~ .container { display: flex; -webkit-display: flex; -moz-display: flex; -ms-display: flex; o-display: flex; flex-wrap: wrap; }
+    .container .left_side { float: none; width: 100%; order: 1; }
+    .container .description__right { float: none; width: 100%; order: 0; padding: 10px 5px; font-size: 15px; line-height: 22px; margin-bottom: 20px; }
     .description__right h2 { margin-bottom: 15px; font-size: 30px; line-height: 32px; border-bottom-width: 3px; padding-bottom: 10px; }
     .description__right p + h2 { margin-top: 10px; }
     .description__right ul { margin-top: 10px; margin-left: 10px; }
