@@ -78,7 +78,7 @@
 	</div>
 </div>
 
-<div class="container main_content">
+<div class="container">
 	<!--left side-->
 	<div class="left_side">
 		<div class="reviews">
