@@ -10,10 +10,9 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/mobile.css" rel="stylesheet">
 	{{код метрики|simplehtml}}
-	{{Мета для google|simplehtml|tpl:meta_google_tpl|default:meta_google_tpl}}
 </head>
 
-<body>
+<body itemscope="" itemtype="http://schema.org/Product">
 <!--header-->
 <div class="header">
 	<div class="header__top">
@@ -27,8 +26,8 @@
 	<div class="header__middle">
 		<div class="container clearfix">
 			<div class="logo">
-				<h1>{{товар|text:Maxisize}}</h1>
-				<h3>{{описание товара|text:крем для увеличения члена}}</h3>
+				<h1 itemprop="name">{{товар|text:Maxisize}}</h1>
+				<h3 itemprop="description">{{описание товара|text:крем для увеличения члена}}</h3>
 			</div>
 			<div class="header__order">
 				{{Кнопка сверху|text|tpl:button|default:button}}
@@ -67,13 +66,15 @@
 		<div class="cream__image">
 			<img src="images/product.png" alt="">
 		</div>
-		<div class="cream__title">
+		<div class="cream__title" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
 			{{Заголовок рядом с ценой|html|tpl:title_near_image_tpl|default:title_near_image_tpl}}
 			<div class="cream__order">
 				{{Кнопка посередине|text|tpl:button|default:button}}
 			</div>
 			<div class="cream__price">
 				<div class="price_main">{{цена|text:990 руб}}</div>
+				<meta itemprop="price" content="{{meta цена|text:100}}">
+				<meta itemprop="priceCurrency" content="{{meta валюта|text:RUB}}">
 			</div>
 		</div>
 
@@ -85,7 +86,10 @@
 	<div class="description__left">
 		{{основной блок|html|tpl:main_block|default:main_block}}
 	</div>
-	<div class="reviews">
+	<div class="reviews" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+		<meta itemprop="ratingValue" content="{{ratingValue цена|text:4.5}}"/>
+		<meta itemprop="bestRating" content="{{bestRating цена|text:5}}">
+		<meta itemprop="ratingCount" content="{{ratingCount цена|text:296}}"/>
 		{{отзывы справа|html|tpl:feedback2|default:feedback2}}
 	</div>
 	<!--block right reviews end-->
