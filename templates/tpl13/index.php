@@ -10,10 +10,9 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/mobile.css" rel="stylesheet">
 	{{код метрики|simplehtml}}
-	{{Мета для google|simplehtml|tpl:meta_google_tpl|default:meta_google_tpl}}
 </head>
 
-<body>
+<body itemscope="" itemtype="http://schema.org/Product">
 <!--header-->
 <div class="header">
 	<div class="header-container">
@@ -33,7 +32,7 @@
 		</div>
 		<div class="header__middle">
 			<div class="container clearfix">
-				<div class="logo">
+				<div class="logo" itemprop="name">
 					{{Продукт под меню|html|tpl:product_under_menu_tpl|default:product_under_menu_tpl}}
 				</div>
 				<div class="clear"></div>
@@ -63,12 +62,18 @@
 			<img src="images/product.png" alt="">
 		</div>
 		<div class="cream__title">
-			{{Продукт рядом с ценой|html|tpl:product_near_price_tpl|default:product_near_price_tpl}}
+            <div itemprop="description">
+			    {{Продукт рядом с ценой|html|tpl:product_near_price_tpl|default:product_near_price_tpl}}
+            </div>
 			<div class="cream__order">
 				{{Кнопка рядом с ценой|simplehtml|tpl:button_tpl|default:button_tpl}}
 			</div>
 			<div class="cream__price">
-				<div class="price_main">{{Цена|text:990 руб}}</div>
+				<div class="price_main" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                    <meta itemprop="price" content="{{meta цена|text:990}}">
+                    <meta itemprop="priceCurrency" content="{{meta валюта|text:RUB}}">
+                    {{Цена|text:990 руб}}
+                </div>
 			</div>
 		</div>
 		<div class="sale">
@@ -92,7 +97,10 @@
 	<!--left side end-->
 	<!--right side-->
 	<div class="right_side">
-		<div class="reviews">
+		<div class="reviews" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+            <meta itemprop="ratingValue" content="{{meta ratingValue|text:4.5}}"/>
+            <meta itemprop="bestRating" content="{{meta bestRating|text:5}}">
+            <meta itemprop="ratingCount" content="{{meta ratingCount|text:296}}"/>
 			<ul>
 				{{Отзывы справа|html|tpl:feedback_right_tpl|default:feedback_right_tpl}}
 			</ul>

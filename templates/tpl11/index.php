@@ -87,9 +87,9 @@
 		{{основной блок|html|tpl:main_block|default:main_block}}
 	</div>
 	<div class="reviews" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
-		<meta itemprop="ratingValue" content="{{ratingValue цена|text:4.5}}"/>
-		<meta itemprop="bestRating" content="{{bestRating цена|text:5}}">
-		<meta itemprop="ratingCount" content="{{ratingCount цена|text:296}}"/>
+		<meta itemprop="ratingValue" content="{{meta ratingValue|text:4.5}}"/>
+		<meta itemprop="bestRating" content="{{meta bestRating|text:5}}">
+		<meta itemprop="ratingCount" content="{{meta ratingCount|text:296}}"/>
 		{{отзывы справа|html|tpl:feedback2|default:feedback2}}
 	</div>
 	<!--block right reviews end-->
