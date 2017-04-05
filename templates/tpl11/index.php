@@ -66,16 +66,12 @@
 		<div class="cream__image">
 			<img src="images/product.png" alt="">
 		</div>
-		<div class="cream__title" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+		<div class="cream__title">
 			{{Заголовок рядом с ценой|html|tpl:title_near_image_tpl|default:title_near_image_tpl}}
 			<div class="cream__order">
 				{{Кнопка посередине|text|tpl:button|default:button}}
 			</div>
-			<div class="cream__price">
-				<div class="price_main">{{цена|text:990 руб}}</div>
-				<meta itemprop="price" content="{{meta цена|text:100}}">
-				<meta itemprop="priceCurrency" content="{{meta валюта|text:RUB}}">
-			</div>
+            {{Блок с ценой|simplehtml|tpl:price_tpl|default:price_tpl}}
 		</div>
 
 		<div class="clear"></div>

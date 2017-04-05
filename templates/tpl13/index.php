@@ -69,11 +69,7 @@
 				{{Кнопка рядом с ценой|simplehtml|tpl:button_tpl|default:button_tpl}}
 			</div>
 			<div class="cream__price">
-				<div class="price_main" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-                    <meta itemprop="price" content="{{meta цена|text:990}}">
-                    <meta itemprop="priceCurrency" content="{{meta валюта|text:RUB}}">
-                    {{Цена|text:990 руб}}
-                </div>
+                {{Блок с ценой|simplehtml|tpl:price_tpl|default:price_tpl}}
 			</div>
 		</div>
 		<div class="sale">
